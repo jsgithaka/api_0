@@ -1,27 +1,39 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "paths": {
+            "@exports/exports": ["./src/exports"],
+            "@exports/components/layout": ["./src/exports/components/layout"],
+            "@exports/components/shared": ["./src/exports/components/shared"],
+            "@exports/components/views": ["./src/exports/components/views"],
+            "@exports/styles/layout": ["./src/exports/styles/layout"],
+            "@exports/styles/shared": ["./src/exports/styles/shared"],
+            "@exports/styles/views": ["./src/exports/styles/views"],
+            "@exports/fonts/variable": ["./src/exports/fonts/variable"],
+            "@exports/fonts/static": ["./src/exports/fonts/static"],
+            "@exports/lib/hooks": ["./src/exports/lib/hooks"],
+            "@exports/lib/middleware": ["./src/exports/lib/middleware"],
+            "@exports/lib/utils": ["./src/exports/lib/utils"],
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "exclude": ["node_modules"]
 }
