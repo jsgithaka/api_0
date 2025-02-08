@@ -1,0 +1,13 @@
+.NavigationItem,
+.NavigationItemActive {
+    text-decoration: none;
+}
+
+.NavigationItemActive {
+    font-weight: 600;
+}
+
+.NavigationItem:hover,
+.NavigationItemActive:hover {
+    text-decoration: underline;
+}

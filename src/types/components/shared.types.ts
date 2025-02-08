@@ -39,5 +39,6 @@ export namespace NavigationItemTypes {
     export interface Props {
         href: string;
         name: string;
+        active?: boolean;
     }
 }
