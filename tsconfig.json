@@ -19,7 +19,6 @@
             }
         ],
         "paths": {
-            "@exports/exports": ["./src/exports"],
             "@exports/components/layout": ["./src/exports/components/layout"],
             "@exports/components/shared": ["./src/exports/components/shared"],
             "@exports/components/views": ["./src/exports/components/views"],
