@@ -1,23 +1,15 @@
 import { HeaderStyles } from '@exports/styles/layout';
-import { Brand, Navigation, NavigationItem } from '@exports/components/shared';
+import { Brand, Navigation } from '@exports/components/shared';
+import { HeaderTypes } from '@exports/types/components';
 
-export default function Header() {
+export default function Header({ children }: HeaderTypes.Props) {
     return (
         <header className={HeaderStyles.Header}>
             <Brand
                 size={24}
                 name='API_0'
             />
-            <Navigation>
-                <NavigationItem
-                    href='/'
-                    name='Landing'
-                />
-                <NavigationItem
-                    href='/docs'
-                    name='Docs'
-                />
-            </Navigation>
+            <Navigation>{children}</Navigation>
         </header>
     );
 }
