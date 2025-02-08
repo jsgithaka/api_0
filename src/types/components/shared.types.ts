@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 // Icon
 export namespace IconTypes {
     export interface Props {
@@ -22,5 +24,12 @@ export namespace BrandTypes {
     export interface Props {
         name: string;
         size: number;
+    }
+}
+
+// Navigation
+export namespace NavigationTypes {
+    export interface Props {
+        children?: ReactNode;
     }
 }
