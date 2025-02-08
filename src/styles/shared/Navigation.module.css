@@ -4,4 +4,29 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    height: 100%;
+}
+
+/* Small */
+@media (max-width: 768px) {
+    .NavigationLarge {
+        display: none;
+    }
+}
+
+/* Large */
+@media (min-width: 769px) {
+    .NavigationSmall {
+        display: none;
+    }
+
+    .NavigationLarge {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        gap: 64px;
+    }
 }

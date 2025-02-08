@@ -15,7 +15,7 @@ export default function Header() {
                 />
                 <NavigationItem
                     href='/docs'
-                    name='Documentation'
+                    name='Docs'
                 />
             </Navigation>
         </header>
