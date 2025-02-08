@@ -1,0 +1,39 @@
+.Header {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Small */
+@media (max-width: 384px) {
+    .Header {
+        padding: 0px 8px;
+        width: calc(100vw - 16px);
+    }
+}
+
+/* Medium */
+@media (min-width: 385px) and (max-width: 768px) {
+    .Header {
+        padding: 0px 16px;
+        width: calc(100vw - 32px);
+    }
+}
+
+/* Large */
+@media (min-width: 769px) and (max-width: 1536px) {
+    .Header {
+        padding: 0px 64px;
+        width: calc(100vw - 128px);
+    }
+}
+
+/* Extra large */
+@media (min-width: 1537px) {
+    .Header {
+        padding: 0px calc(64px + calc(100vw - 1537px) / 2);
+        width: calc(100vw - 128px - calc(100% - 1537px));
+    }
+}
