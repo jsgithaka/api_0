@@ -11,7 +11,7 @@ export default function Icon({
 }: IconTypes.Props) {
     return (
         <Image
-            src={icon}
+            src={`/assets/icons/dark/${icon}`}
             alt={alt}
             width={width}
             height={height}

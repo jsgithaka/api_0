@@ -20,9 +20,7 @@
         ],
         "paths": {
             "@exports/components/layout": ["./src/exports/components/layout"],
-            "@exports/components/shared": [
-                "./src/exports/components/shared.ts"
-            ],
+            "@exports/components/shared": ["./src/exports/components/shared"],
             "@exports/components/views": ["./src/exports/components/views"],
             "@exports/styles/layout": ["./src/exports/styles/layout"],
             "@exports/styles/shared": ["./src/exports/styles/shared"],

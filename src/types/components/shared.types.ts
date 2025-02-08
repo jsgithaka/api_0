@@ -5,7 +5,7 @@ export namespace IconTypes {
         alt: string;
         width: number;
         height: number;
-        styles: string;
+        styles?: string;
     }
 }
 
@@ -14,7 +14,6 @@ export namespace LogoTypes {
     export interface Props {
         size: number;
         icon: string;
-        styles: string;
     }
 }
 
