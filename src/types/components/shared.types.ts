@@ -33,3 +33,11 @@ export namespace NavigationTypes {
         children?: ReactNode;
     }
 }
+
+// NavigationItem
+export namespace NavigationItemTypes {
+    export interface Props {
+        href: string;
+        name: string;
+    }
+}
