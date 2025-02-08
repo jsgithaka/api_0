@@ -30,6 +30,8 @@
             "@exports/lib/hooks": ["./src/exports/lib/hooks"],
             "@exports/lib/middleware": ["./src/exports/lib/middleware"],
             "@exports/lib/utils": ["./src/exports/lib/utils"],
+            "@exports/types/components": ["./src/exports/types/components"],
+            "@exports/types/utils": ["./src/exports/types/utils"],
             "@/*": ["./src/*"]
         }
     },
