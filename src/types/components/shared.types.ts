@@ -42,3 +42,11 @@ export namespace NavigationItemTypes {
         active?: boolean;
     }
 }
+
+// Button
+export namespace ButtonTypes {
+    export interface Props {
+        href: string;
+        name: string;
+    }
+}
