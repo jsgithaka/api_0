@@ -5,3 +5,7 @@
     justify-content: center;
     line-height: 1;
 }
+
+.Brand p {
+    font-weight: 600;
+}
